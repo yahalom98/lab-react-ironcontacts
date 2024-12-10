@@ -1,77 +1,4 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# LAB | React IronContacts
-
-<details>
-  <summary>
-   <h2>Learning Goals</h2>
-  </summary>
-
-  This exercise allows you to practice and apply the concepts and techniques taught in class. 
-
-  Upon completion of this exercise, you will be able to:
-
-  - Use the `useState` hook to create state variables and add state to React components.
-  - Use state variable setter functions to update state and trigger component re-render.
-  - Use methods `map()` and `filter()` to render array data as a list of elements.
-  - Use the `key` attribute in React components to set a unique key for each element in a list.
-  - Remove items from a list.
-  - Use operators `?` and `&&` to conditionally render content.
-  - Create event handler functions to handle user interactions and browser events.
-  - Create controlled components to manage the form inputs.
-
-  <br>
-  <hr> 
-
-</details>
-
-## Introduction
-
-After Ironhack, you have decided to work in the movie industry, and you've found a job where you need to manage the contacts of a famous producer.
-
-Your task is to create a contact management app for the producer using React.
-
-## Setup
-
-- Fork this repo
-
-- Clone this repo
-
-- Open the LAB and start:
-
-  ```bash
-  $ cd lab-react-ironcontacts
-  $ npm install
-  $ npm start
-  ```
-
-
-## Submission
-
-- Upon completion, run the following commands:
-
-  ```bash
-  git add .
-  git commit -m "done"
-  git push origin master
-  ```
-
-- Create a Pull Request so that your TAs can check your work.
-
-
-## Getting Started
-
-Clean the `App.js` component so that it has the following structure:
-
-```jsx
-// src/App.js
-import "./App.css";
-
-function App() {
-  return <div className="App"></div>;
-}
-export default App;
-```
 
 ## Instructions
 
@@ -133,55 +60,14 @@ At the end of this iteration, your website will probably look like this:
 
 </details>
 
-### Iteration 4 | Sort Contacts by Name and Popularity
-
-The producer asked you to add two new buttons to help them sort their contacts. When you click on one of the buttons, it should **sort the table by `name`** (alphabetically), and when you click the other, it should **sort by `popularity`** (highest first).
-
-Once you have sorted the array, remember to update the state variable holding the contacts.
-
-This is what you should have at the end of this iteration:
-
-<details>
-  <summary> Check image inside </summary>
-
-![Screenshot - Iteration 4](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-ironcontacts-4.png)
+ttps://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-ironcontacts-4.png)
 
 </details>
 
-### Iteration 5 | Remove Contacts
-
-The producer also would like to remove some of their contacts. Implement a _Delete_ button on each row of your `<table>` that will let the user remove the contact they clicked.
-
-When they click, you should get the `id` of that actor and use it to remove the contact from the array. Remember to update the state variable holding the contacts after you remove the contact!
-
-When done, your app should look like this (after playing a little bit with the _Delete_ button):
-
-<details>
-  <summary> Check image inside </summary>
-
-![Screenshot - Iteration 5](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-ironcontacts-5.png)
-
-</details>
-
-### Iteration 6 | Bonus | Styling
-
-Unfortunately, this contact list isn't production-ready. We are in the movie business! It has to sparkle! Add some beautiful CSS to make the app "pop".
-
-Happy coding! :blue_heart:
-
-<br>
-
-## FAQs
 
 
-<details>
-  <summary>I am stuck and don't know how to solve the problem or where to start. What should I do?</summary>
 
-  <br>
 
-  If you are stuck in your code and don't know how to solve the problem or where to start, you should take a step back and try to form a clear question about the specific issue you are facing. This will help you narrow down the problem and come up with potential solutions.
-
-  For example, is it a concept that you don't understand, or are you receiving an error message that you don't know how to fix? It is usually helpful to try to state the problem as clearly as possible, including any error messages you are receiving. This can help you communicate the issue to others and potentially get help from classmates or online resources. 
 
   Once you have a clear understanding of the problem, you will be able to start working toward the solution.
 
